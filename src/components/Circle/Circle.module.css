@@ -1,0 +1,18 @@
+.circle {
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  background-color: #fff;
+  color: var(--line--empty);
+  border: 3px solid var(--line--empty);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s ease;
+}
+
+.active {
+  border-color: var(--line--fill);
+  color: var(--line--fill);
+}
